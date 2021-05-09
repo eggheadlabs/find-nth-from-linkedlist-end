@@ -32,7 +32,7 @@ s.reverse()
 sll = SinglyLinkedList()
 for x in s: sll.push(x)
 
-# find the middle in one pass 
+# find the n'th node from the end 
 if sll.head is not None:
     node = sll.nth_from_end(3)
     print('Found the n\'th element from the end: ', node.data)
